@@ -1,62 +1,62 @@
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f1e9e9;
-    }
+    html, body {
+    height: 100%;     
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1e9e9;
+}
 
-    header {
-        background-color: #333;
-        color: white;
-        padding: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;    
-    }
+body {
+    display: flex;
+    flex-direction: column;  
 
-    .logo {
-        font-size: 28px;
-        font-weight: 500px;
-        letter-spacing: 2px;
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;    
+}
 
- 
-    }
+.logo {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
 
-    nav a {
-        color: white;
-        text-decoration: none;
-        margin-left: 15px;
-        padding: 8px 14px;
-        border: 1px solid white;
-        border-radius: 4px;
-        font-size: 14px;
-        transition: 0.3s;
-        
-    }
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 8px 14px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: 0.3s;
+}
 
-    nav a:hover {
-        background-color: white;
-        color: #333;
-    }
+nav a:hover {
+    background-color: white;
+    color: #333;
+}
 
-    footer {
-        background-color: #333;
-        color: white;
-        padding: 10px;
-        text-align: center;
-        width: 100%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    }
+main {
+    flex: 1;          
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
     
-
-    main {
-        padding: 20px;
-        text-align: center;
-    }
+}
 </style>
 
 

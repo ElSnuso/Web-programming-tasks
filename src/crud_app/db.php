@@ -11,7 +11,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-?>
+/*?>
 
 <?php
 include 'db.php';
@@ -52,5 +52,5 @@ if ($result->num_rows > 0) {
     echo "No results";
 }
 // close the connection when done
-$conn->close();
+$conn->close();*/
 ?>

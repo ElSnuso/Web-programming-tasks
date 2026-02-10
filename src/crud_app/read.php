@@ -1,0 +1,1 @@
+<a href='updatesingle.php?id=$row[id]'>$row[id]</a>

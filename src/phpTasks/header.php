@@ -10,6 +10,8 @@
 body {
     display: flex;
     flex-direction: column;  
+    min-height: 100vh;
+}
 
 header {
     background-color: #333;
@@ -46,16 +48,15 @@ nav a:hover {
 main {
     flex: 1;          
     padding: 20px;
-    text-align: center;
+
 }
 
 footer {
     background-color: #333;
     color: white;
-    padding: 10px;
     text-align: center;
-    width: 100%;
-    
+    width: 100%; 
+    padding: 20px;   
 }
 </style>
 

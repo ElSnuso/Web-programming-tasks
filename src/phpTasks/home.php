@@ -11,8 +11,8 @@
 
 <main>
     <h2>About This Website</h2>
-    <p>This is a simple webpage that you can edit to include your content.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <p>This is a simple website for web programming course exercises.</p>
+    <h3>Allan Jakubovits.</h3>
 </main>
 
 <?php include 'footer.php'; ?>

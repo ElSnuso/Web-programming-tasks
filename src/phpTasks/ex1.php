@@ -7,7 +7,7 @@
 
 <body>
 <?php include 'header.php'; ?>
-
+<main>
 <h1>Exercise 1: Getting Started with PHP - Allan Jakubovits</h1>
 
 <?php
@@ -49,7 +49,7 @@ $g3 = 5;
 
 <img src="image.png" width="700" alt="Sample image">
 
+</main>
 <?php include 'footer.php'; ?>
-
 </body>
 </html>

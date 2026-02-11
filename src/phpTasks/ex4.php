@@ -7,15 +7,15 @@
 
 <body>
 <?php include 'header.php'; ?>
-
+<main>
 <form method="post">    
-    Name <input type="text"  name="name"><br>   
-    Age <input type="number" name="name"><br>
-    <input type="submit" name="submit" value="Check">
+    Name <input type="text"  name="name"><br><br>
+    Age <input type="number" name="age"><br><br>
+    <input type="submit" name="check_vote" value="Check">
 </form>
-
+<br><br>
 <?php
-if (isset($_POST['submit'])) {
+if (isset($_POST['check_vote'])) {
     $name = $_POST['name'];
     $age = $_POST['age'];
 
@@ -27,7 +27,7 @@ if (isset($_POST['submit'])) {
     }
 }
 ?>
-
+<br><br>
 <?php
 $month = date("F");
 
@@ -39,15 +39,15 @@ switch($month) {
         echo "Not August, this is $month so I don't have any holidays.";
 }
 ?>
-
+<br><br><br>
 <form method="post">
     Enter a number: 
     <input type="number" name="number">
-    <input type="submit" name="submit" value="show table">
+    <input type="submit" name="show_table" value="show table">
 </form>
-
+<br><br>
 <?php
-if (isset($_POST['submit'])) {
+if (isset($_POST['show_table'])) {
     $n = $_POST['number'];
 
     echo "<h4> Multiplication table table of $n </h4>";
@@ -58,16 +58,16 @@ if (isset($_POST['submit'])) {
     }
 }
 ?>
-
+<br><br>
 <form method="post">
     Enter a number:
     <input type="number" name="number">
-    <input type="submit" name="submit" value="print">
+    <input type="submit" name="print_num" value="print">
 </form>
 
-
+<br><br>
 <?php
-if(isset($_POST['submit'])) {
+if(isset($_POST['print_num'])) {
     $n = $_POST['number'];
     $i = 1;
 
@@ -85,7 +85,7 @@ foreach($myarray as $value) {
     echo $value . "<br>";
 }
 ?>
-
+</main>
 <?php include 'footer.php'; ?>
 </body>
 </html>
